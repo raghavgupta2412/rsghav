@@ -1,0 +1,106 @@
+body{
+    color: #40514E;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.h2{
+    font-weight: normal; 
+}
+ 
+hr{
+    border: dotted #40514E   6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+p{
+    line-height: 2;
+}
+.pro{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+
+}
+
+.com{
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 50px;
+}
+
+.chillies{
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 50px;
+}
+h1{
+   margin-top: 50px;
+   font-family: 'Sacramento', cursive;
+   font-size: 90px;
+   color: #66BFBF;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    
+}
+
+.top{
+    background-color: #eaf6ea;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+.bottom-cloud{
+    position: absolute;
+}
+
+.top-cloud{
+    position: absolute;
+    right:300px;
+    top: 50px;
+}
+
+
+a{
+    color: #11999E;
+    font-family:  'Montserrat', sans-serif;
+    margin: 10px 20px ;
+    text-decoration: noneS;
+}
+
+a:hover{
+    color: wheat;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
