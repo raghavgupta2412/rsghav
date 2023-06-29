@@ -86,25 +86,6 @@ body, html {
   
 }
 
-@media screen and (max-width: 600px) {
-  .top {
-    display: flex;
-    flex-direction: column;
-    font-size: auto;
-    image-resolution: auto;
-  }
-  .fa {
-    padding: 2px;
-    font-size: auto;
-    width:10px;
-    text-align: center;
-    text-decoration: none;
-    margin: 3px 1px;
-    display: grid;
-  }
-
-}
-
 .fa-instagram {
   background: #125688;
   color: white;
