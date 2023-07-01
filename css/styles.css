@@ -6,7 +6,7 @@ html {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/ro.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/ro.png");
   height: 100%;
   background-position: center;
   background-size: cover;
@@ -60,17 +60,42 @@ html {
 
 .tabcontent {
   /* background-color: aqua; */
-  background-image: url("./images/bg.png");
+  background-image: url("/images/bg.png");
   padding: 0px 12px;
   border: 1px solid #ccc;
   width: 80%;
   border-left: none;
   height: 500px;
   overflow: scroll;
+  
+}
+
+.but{
+  width: 500px; 
+  height: 50px; 
+  background-color: #08aeac; 
+  color: white; 
+  border: white; 
+  border-radius: 3%;
+}
+
+.icon{
+  margin-left: 80px; 
+  margin-top: 10px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  display: flex;
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
   #leftsidebar {
     gap: 10px;
     border: 1px solid inherit;
@@ -93,12 +118,39 @@ html {
   .hero-image {
     display: flex;
     flex-direction: column;
-    margin: auto;
   }
 
   .tab button{
     font-size: auto;
   }
+  .top{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .tabcontent{
+      height: auto; 
+  }
+
+  .but{
+    width: 100%;
+    margin-left: 10px;
+
+  }
+  .icon{
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+
+  }
+  a.fa-youtube{
+    display: none;
+  }
+  div.image{
+    height: auto;
+    margin-left: 0px;
+  }
+
 
 
 }
@@ -162,15 +214,7 @@ html {
   color: white;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  display: flex;
-}
+
 
 .skills {
   margin-top: 50px;
